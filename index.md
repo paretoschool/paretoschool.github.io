@@ -5,4 +5,4 @@ title: "Pareto MBA"
 
 ## You're ready to go!
 
-Start developing your Jekyll website.
+Let's try to update this thing!
