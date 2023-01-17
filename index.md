@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "Pareto MBA"
 ---
 
 ## You're ready to go!
