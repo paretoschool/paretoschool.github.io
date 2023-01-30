@@ -1,12 +1,21 @@
-url: "https://www.pareto.school" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.paretoschool.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: "The Pareto MBA - Pareto Business School" # the name of your site, e.g. ACME Corp.
+description: "Learn practical business skills from founders and executives at world-leading companies in an 8-week alternative MBA program."
 
 plugins:
   - jekyll-postcss
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 postcss:
   cache: false
+
+twitter:
+  username: paretoschool
+  card: summary
+
+logo: "/assets/img/pareto_logo_line.png"
 
 #sass:
 #  load_paths:
