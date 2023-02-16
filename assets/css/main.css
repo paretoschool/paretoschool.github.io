@@ -8,3 +8,7 @@
 .text-red-line {
 	border-left: 3px solid rgb(239 68 68);padding-left:5px;
 }
+
+.text-rose-line {
+	border-left: 3px solid rgb(244 63 94);padding-left:5px;
+}
