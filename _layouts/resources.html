@@ -9,93 +9,239 @@
 
       <main>
 
-        <div class="mx-auto bg-white max-w-4xl pt-6 sm:pt-6">
+        <div class="max-w-7xl mx-auto flex mb-4 mt-2 p-2 lg:px-8">
 
-          <nav class="flex" aria-label="Breadcrumb">
-            <ol role="list" class="flex items-center space-x-4">
-              <li>
-                <div>
-                  <a href="#" class="text-gray-400 hover:text-gray-500">
-                    <!-- Heroicon name: mini/home -->
-                    <svg class="h-5 w-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                      <path fill-rule="evenodd" d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z" clip-rule="evenodd" />
-                    </svg>
-                    <span class="sr-only">Home</span>
+          <div class="fixed inset-0 h-full bg-white w-full lg:static lg:h-auto lg:overflow-y-visible lg:pt-0 lg:w-1/4 lg:block lg:border-0 xl:w-1/5 hidden pt-16 text-sm">
+
+              <!--
+              <ul>
+
+                <li>
+                  <a href="/docs/installation" class="group flex items-center lg:text-sm lg:leading-6 mb-4 font-semibold text-rose-500 dark:text-rose-400">
+                    <div class="mr-4 rounded-md ring-1 ring-slate-900/5 shadow-sm group-hover:shadow group-hover:ring-slate-900/10 dark:ring-0 dark:shadow-none dark:group-hover:shadow-none dark:group-hover:highlight-white/10 group-hover:shadow-sky-200 dark:group-hover:bg-rose-500 dark:bg-rose-500 dark:highlight-white/10">
+                      <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M8.5 7c1.093 0 2.117.27 3 .743V17a6.345 6.345 0 0 0-3-.743c-1.093 0-2.617.27-3.5.743V7.743C5.883 7.27 7.407 7 8.5 7Z" class="fill-rose-200 group-hover:fill-rose-500 dark:fill-rose-300 dark:group-hover:fill-rose-300"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 7c1.093 0 2.617.27 3.5.743V17c-.883-.473-2.407-.743-3.5-.743s-2.117.27-3 .743V7.743a6.344 6.344 0 0 1 3-.743Z" class="fill-rose-400 group-hover:fill-rose-500 dark:fill-rose-200 dark:group-hover:fill-rose-200"></path>
+                      </svg>
+                    </div>
+                    Business Dictionary
                   </a>
-                </div>
-              </li>
+                </li>
 
-              <li>
-                <div class="flex items-center">
-                  <!-- Heroicon name: mini/chevron-right -->
-                  <svg class="h-5 w-5 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-                  </svg>
-                  <a href="#" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700">Projects</a>
-                </div>
-              </li>
+              </ul>
+              -->
 
-              <li>
-                <div class="flex items-center">
-                  <!-- Heroicon name: mini/chevron-right -->
-                  <svg class="h-5 w-5 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                    <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
-                  </svg>
-                  <a href="#" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700" aria-current="page">Project Nero</a>
-                </div>
-              </li>
-            </ol>
-          </nav>
-          
-        </div>
+              <h5 class="mb-8 lg:mb-3 font-semibold text-slate-900 dark:text-slate-200">Resources</h5>
+              <ul class="space-y-6 lg:space-y-2 border-l border-slate-100 dark:border-slate-800">
+                <li data-active="true"><a class="block border-l pl-4 -ml-px text-rose-500 border-current font-semibold dark:text-rose-400" href="/docs/installation">Terminology</a></li>
+                <li><a class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300" href="/docs/editor-setup">Editor Setup</a></li>
+                <li><a class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300" href="/docs/using-with-preprocessors">Using with Preprocessors</a></li>
+                <li><a class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300" href="/docs/optimizing-for-production">Optimizing for Production</a></li>
+                <li><a class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300" href="/docs/browser-support">Browser Support</a></li>
+                <li><a class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300" href="/docs/upgrade-guide">Upgrade Guide</a></li>
+              </ul>
 
+              <h5 class="mb-8 lg:mb-3 mt-8 font-semibold text-slate-900 dark:text-slate-200">Core Concepts</h5>
+              <ul class="space-y-6 lg:space-y-2 border-l border-slate-100 dark:border-slate-800">
+                <li><a class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300" href="/docs/utility-first">Utility-First Fundamentals</a></li>
+                <li><a class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300" href="/docs/responsive-design">Responsive Design</a></li>
+                <li><a class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300" href="/docs/dark-mode">Dark Mode</a></li>
+                <li><a class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300" href="/docs/reusing-styles">Reusing Styles</a></li>
+                <li><a class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300" href="/docs/adding-custom-styles">Adding Custom Styles</a></li>
+                <li><a class="block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300" href="/docs/functions-and-directives">Functions &amp; Directives</a></li></ul>
 
-        <div class="mx-auto max-w-4xl mt-8">
-          <p class="text-lg font-semibold leading-8 tracking-tight text-rose-500">Marketing</p>
-          <h1 class="mb-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">SWOT Analysis</h1>
-          <p class="text-lg font-semibold leading-8 tracking-tight text-gray-500">- A quick framework to analyze a company or organization</p>
-
-          <div class="my-6 flex items-center">
-            <div class="flex-shrink-0">
-              <a href="#">
-                <span class="sr-only">Paul York</span>
-                <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
-              </a>
-            </div>
-            <div class="ml-3">
-              <p class="text-sm font-medium text-gray-900">
-                Written by <a href="#">Paul York</a>
-              </p>
-              <div class="flex space-x-1 text-sm text-gray-500">
-                <time datetime="2020-03-16">Last updated Mar 16, 2023</time>
-                <span aria-hidden="true">&middot;</span>
-                <span>6 min read</span>
-              </div>
-            </div>
           </div>
 
-          <p class="mt-3 text-base text-gray-500">
-            Phasellus tristique sodales molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam porta purus lorem, a scelerisque odio feugiat in. Suspendisse consequat luctus tellus non ullamcorper. In volutpat lectus quis ullamcorper porta. Maecenas id sagittis mauris. Donec a diam sed dui feugiat scelerisque non et lacus. In hac habitasse platea dictumst. Pellentesque ultricies auctor sapien a dictum. Nunc placerat, turpis nec maximus pulvinar, turpis ipsum posuere dolor, non faucibus turpis dui nec purus. Mauris vitae urna sed lorem rutrum molestie. Quisque finibus volutpat quam, sed luctus dolor imperdiet eu. Duis luctus tincidunt ligula, id egestas nisi pellentesque a. Vivamus enim diam, molestie et nisi id, dictum interdum eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-            <br><br>
-            Phasellus sit amet semper eros. Vestibulum ac orci efficitur, feugiat ipsum vel, sodales dolor. Suspendisse eu sollicitudin mauris. Etiam eu fringilla tellus. Morbi commodo consectetur massa vitae aliquet. Sed ligula erat, pharetra non est sed, pretium blandit velit. In pellentesque finibus sollicitudin.
-            <br><br>
-            Donec efficitur, nulla vitae malesuada volutpat, justo erat viverra neque, id viverra nisi nisi a odio. Proin non nunc molestie, pharetra lacus vitae, semper magna. Proin dignissim lectus ac massa varius lobortis id in est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed vitae lectus eget dui lobortis iaculis at non turpis. Cras augue ante, dignissim non dolor ut, sodales consectetur diam. Nulla gravida, risus ut fringilla vehicula, nisl velit ultricies velit, eu rhoncus felis nisl quis metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            <br><br>
-            Quisque rutrum diam at dolor eleifend blandit ut a nisi. Fusce venenatis quam tempor mattis feugiat. Nam et nulla leo. Ut tincidunt velit at sapien bibendum, scelerisque mattis enim mollis. Morbi finibus nisl quis venenatis accumsan. Sed sit amet felis et nunc vulputate egestas sit amet a turpis. Curabitur eu facilisis nulla, ac faucibus nibh. Suspendisse vulputate mi a faucibus rutrum. Aenean nec purus a mauris tempus euismod. Pellentesque rutrum fermentum nunc, vitae aliquam sem. Curabitur ultrices lacus nec placerat scelerisque. Nulla efficitur et ipsum sit amet commodo. In et maximus dui. Etiam et fringilla erat, quis pellentesque sapien. Maecenas ac magna commodo, accumsan ante vel, malesuada metus.
-            <br><br>
-            Vivamus posuere ligula turpis, a suscipit turpis egestas at. In tincidunt odio ac ullamcorper ultricies. Ut lacinia efficitur eleifend. Nunc gravida eleifend libero sit amet egestas. Ut auctor vehicula est eu congue. Sed at lectus sed nisi rutrum posuere. Pellentesque sed leo non ex egestas finibus at sit amet ex.
+          <div class="min-h-screen w-full lg:static lg:max-h-full lg:overflow-visible lg:w-3/4 xl:w-4/5">
 
-            Proin posuere dolor tellus, et vulputate metus finibus a. Vestibulum id libero non neque congue accumsan. Morbi congue nunc nisi, et vulputate mauris molestie vitae. Donec efficitur, nunc laoreet iaculis tempus, tellus leo tristique nibh, euismod lobortis ex diam eu neque. Maecenas sapien justo, rhoncus a sapien non, dictum sodales ante. Ut id sem interdum, lobortis leo at, egestas risus. Vestibulum nibh tortor, pellentesque eget viverra iaculis, imperdiet a libero. Aliquam erat volutpat. Nam ut consequat dolor. Proin eleifend rutrum diam vitae hendrerit. Integer iaculis lorem a ipsum egestas venenatis. Nulla vel quam hendrerit, pretium tortor at, porta justo. Suspendisse quis urna ultrices, semper massa vitae, dapibus mauris.
+              <div class="max-w-3xl relative z-20 pt-0 xl:max-w-none" > <!-- mx-auto bg-white max-w-4xl pt-6 sm:pt-6 px-2 lg:px-0 -->
+                <nav class="flex" aria-label="Breadcrumb">
+                  <ol role="list" class="flex items-center space-x-4">
+                    <li>
+                      <div>
+                        <a href="#" class="text-gray-400 hover:text-gray-500">
+                          <!-- Heroicon name: mini/home -->
+                          <svg class="h-5 w-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z" clip-rule="evenodd" />
+                          </svg>
+                          <span class="sr-only">Home</span>
+                        </a>
+                      </div>
+                    </li>
 
-            Curabitur pellentesque feugiat nunc, ut suscipit risus volutpat sed. Integer tincidunt velit est, vehicula tristique nisi interdum eget. Sed quam turpis, sollicitudin eu massa ut, finibus facilisis risus. Ut non vehicula nunc. Vestibulum eu blandit diam. Curabitur consectetur est non arcu maximus, ac tempus lectus tempus. Aliquam at neque quam. Maecenas a risus at est aliquam sodales. Nunc nec semper turpis. Morbi imperdiet, nisl non tincidunt accumsan, nisi ante euismod est, congue porta metus dui ut mi.
+                    <li>
+                      <div class="flex items-center">
+                        <!-- Heroicon name: mini/chevron-right -->
+                        <svg class="h-5 w-5 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                        </svg>
+                        <a href="#" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700">Projects</a>
+                      </div>
+                    </li>
 
-            Vivamus odio dui, aliquam vitae turpis at, imperdiet ornare orci. Praesent dictum tincidunt luctus. Mauris sodales et sapien ac blandit. Etiam sed volutpat justo. Etiam sapien nisi, elementum ut nunc ac, finibus rhoncus tortor. In id turpis venenatis, dignissim nunc quis, dictum diam. Nam consequat dui nec nibh laoreet, id hendrerit mi blandit.
+                    <li>
+                      <div class="flex items-center">
+                        <!-- Heroicon name: mini/chevron-right -->
+                        <svg class="h-5 w-5 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                        </svg>
+                        <a href="#" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700" aria-current="page">Project Nero</a>
+                      </div>
+                    </li>
+                  </ol>
+                </nav>          
+              </div>
 
-          </p>
+              <div class="max-w-2xl mt-8 px-2 lg:px-0">
+                <p class="text-lg font-semibold leading-8 tracking-tight text-rose-500">Marketing</p>
+                <h1 class="mb-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">SWOT Analysis</h1>
+                <p class="text-lg font-semibold leading-8 tracking-tight text-gray-500">- A quick framework to analyze a company or organization</p>
 
+                <div class="my-6 flex items-center">
+                  <div class="flex-shrink-0">
+                    <a href="#">
+                      <span class="sr-only">Paul York</span>
+                      <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                    </a>
+                  </div>
+                  <div class="ml-3">
+                    <p class="text-sm font-medium text-gray-900">
+                      Written by <a href="#">Paul York</a>
+                    </p>
+                    <div class="flex space-x-1 text-sm text-gray-500">
+                      <time datetime="2020-03-16">Last updated Mar 16, 2023</time>
+                      <span aria-hidden="true">&middot;</span>
+                      <span>6 min read</span>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="mt-3 text-lg text-gray-500">
+                  Phasellus tristique sodales molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam porta purus lorem, a scelerisque odio feugiat in. Suspendisse consequat luctus tellus non ullamcorper. In volutpat lectus quis ullamcorper porta. Maecenas id sagittis mauris. Donec a diam sed dui feugiat scelerisque non et lacus. In hac habitasse platea dictumst. Pellentesque ultricies auctor sapien a dictum. Nunc placerat, turpis nec maximus pulvinar, turpis ipsum posuere dolor, non faucibus turpis dui nec purus. Mauris vitae urna sed lorem rutrum molestie. Quisque finibus volutpat quam, sed luctus dolor imperdiet eu. Duis luctus tincidunt ligula, id egestas nisi pellentesque a. Vivamus enim diam, molestie et nisi id, dictum interdum eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                  <br><br>
+                  Phasellus sit amet semper eros. Vestibulum ac orci efficitur, feugiat ipsum vel, sodales dolor. Suspendisse eu sollicitudin mauris. Etiam eu fringilla tellus. Morbi commodo consectetur massa vitae aliquet. Sed ligula erat, pharetra non est sed, pretium blandit velit. In pellentesque finibus sollicitudin.
+                  <br><br>
+                  Donec efficitur, nulla vitae malesuada volutpat, justo erat viverra neque, id viverra nisi nisi a odio. Proin non nunc molestie, pharetra lacus vitae, semper magna. Proin dignissim lectus ac massa varius lobortis id in est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed vitae lectus eget dui lobortis iaculis at non turpis. Cras augue ante, dignissim non dolor ut, sodales consectetur diam. Nulla gravida, risus ut fringilla vehicula, nisl velit ultricies velit, eu rhoncus felis nisl quis metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  <br><br>
+                  Quisque rutrum diam at dolor eleifend blandit ut a nisi. Fusce venenatis quam tempor mattis feugiat. Nam et nulla leo. Ut tincidunt velit at sapien bibendum, scelerisque mattis enim mollis. Morbi finibus nisl quis venenatis accumsan. Sed sit amet felis et nunc vulputate egestas sit amet a turpis. Curabitur eu facilisis nulla, ac faucibus nibh. Suspendisse vulputate mi a faucibus rutrum. Aenean nec purus a mauris tempus euismod. Pellentesque rutrum fermentum nunc, vitae aliquam sem. Curabitur ultrices lacus nec placerat scelerisque. Nulla efficitur et ipsum sit amet commodo. In et maximus dui. Etiam et fringilla erat, quis pellentesque sapien. Maecenas ac magna commodo, accumsan ante vel, malesuada metus.
+                  <br><br>
+                  Vivamus posuere ligula turpis, a suscipit turpis egestas at. In tincidunt odio ac ullamcorper ultricies. Ut lacinia efficitur eleifend. Nunc gravida eleifend libero sit amet egestas. Ut auctor vehicula est eu congue. Sed at lectus sed nisi rutrum posuere. Pellentesque sed leo non ex egestas finibus at sit amet ex.
+
+                  Proin posuere dolor tellus, et vulputate metus finibus a. Vestibulum id libero non neque congue accumsan. Morbi congue nunc nisi, et vulputate mauris molestie vitae. Donec efficitur, nunc laoreet iaculis tempus, tellus leo tristique nibh, euismod lobortis ex diam eu neque. Maecenas sapien justo, rhoncus a sapien non, dictum sodales ante. Ut id sem interdum, lobortis leo at, egestas risus. Vestibulum nibh tortor, pellentesque eget viverra iaculis, imperdiet a libero. Aliquam erat volutpat. Nam ut consequat dolor. Proin eleifend rutrum diam vitae hendrerit. Integer iaculis lorem a ipsum egestas venenatis. Nulla vel quam hendrerit, pretium tortor at, porta justo. Suspendisse quis urna ultrices, semper massa vitae, dapibus mauris.
+
+                  Curabitur pellentesque feugiat nunc, ut suscipit risus volutpat sed. Integer tincidunt velit est, vehicula tristique nisi interdum eget. Sed quam turpis, sollicitudin eu massa ut, finibus facilisis risus. Ut non vehicula nunc. Vestibulum eu blandit diam. Curabitur consectetur est non arcu maximus, ac tempus lectus tempus. Aliquam at neque quam. Maecenas a risus at est aliquam sodales. Nunc nec semper turpis. Morbi imperdiet, nisl non tincidunt accumsan, nisi ante euismod est, congue porta metus dui ut mi.
+
+                  Vivamus odio dui, aliquam vitae turpis at, imperdiet ornare orci. Praesent dictum tincidunt luctus. Mauris sodales et sapien ac blandit. Etiam sed volutpat justo. Etiam sapien nisi, elementum ut nunc ac, finibus rhoncus tortor. In id turpis venenatis, dignissim nunc quis, dictum diam. Nam consequat dui nec nibh laoreet, id hendrerit mi blandit.
+
+                </p>
+              </div>
+
+
+
+          </div>
 
 
         </div>
+
+
+
+        <div class="max-w-7xl mx-auto px-2 sm:px-6 md:px-8">
+
+
+          <div>
+
+
+            <div class="lg:pl-[19.5rem]">
+
+              <div class="max-w-3xl mx-auto relative z-20 pt-10 xl:max-w-none" > <!-- mx-auto bg-white max-w-4xl pt-6 sm:pt-6 px-2 lg:px-0 -->
+                <nav class="flex" aria-label="Breadcrumb">
+                  <ol role="list" class="flex items-center space-x-4">
+                    <li>
+                      <div>
+                        <a href="#" class="text-gray-400 hover:text-gray-500">
+                          <!-- Heroicon name: mini/home -->
+                          <svg class="h-5 w-5 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z" clip-rule="evenodd" />
+                          </svg>
+                          <span class="sr-only">Home</span>
+                        </a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="flex items-center">
+                        <!-- Heroicon name: mini/chevron-right -->
+                        <svg class="h-5 w-5 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                        </svg>
+                        <a href="#" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700">Projects</a>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="flex items-center">
+                        <!-- Heroicon name: mini/chevron-right -->
+                        <svg class="h-5 w-5 flex-shrink-0 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                          <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+                        </svg>
+                        <a href="#" class="ml-4 text-sm font-medium text-gray-500 hover:text-gray-700" aria-current="page">Project Nero</a>
+                      </div>
+                    </li>
+                  </ol>
+                </nav>          
+              </div>
+
+              <div class="mx-auto max-w-4xl mt-8 px-2 lg:px-0">
+                <p class="text-lg font-semibold leading-8 tracking-tight text-rose-500">Marketing</p>
+                <h1 class="mb-2 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">SWOT Analysis</h1>
+                <p class="text-lg font-semibold leading-8 tracking-tight text-gray-500">- A quick framework to analyze a company or organization</p>
+
+                <div class="my-6 flex items-center">
+                  <div class="flex-shrink-0">
+                    <a href="#">
+                      <span class="sr-only">Paul York</span>
+                      <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                    </a>
+                  </div>
+                  <div class="ml-3">
+                    <p class="text-sm font-medium text-gray-900">
+                      Written by <a href="#">Paul York</a>
+                    </p>
+                    <div class="flex space-x-1 text-sm text-gray-500">
+                      <time datetime="2020-03-16">Last updated Mar 16, 2023</time>
+                      <span aria-hidden="true">&middot;</span>
+                      <span>6 min read</span>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="mt-3 text-base text-gray-500">
+                  Phasellus tristique sodales molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam porta purus lorem, a scelerisque odio feugiat in. Suspendisse consequat luctus tellus non ullamcorper. In volutpat lectus quis ullamcorper porta. Maecenas id sagittis mauris. Donec a diam sed dui feugiat scelerisque non et lacus. In hac habitasse platea dictumst. Pellentesque ultricies auctor sapien a dictum. Nunc placerat, turpis nec maximus pulvinar, turpis ipsum posuere dolor, non faucibus turpis dui nec purus. Mauris vitae urna sed lorem rutrum molestie. Quisque finibus volutpat quam, sed luctus dolor imperdiet eu. Duis luctus tincidunt ligula, id egestas nisi pellentesque a. Vivamus enim diam, molestie et nisi id, dictum interdum eros. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                  <br><br>
+                  Phasellus sit amet semper eros. Vestibulum ac orci efficitur, feugiat ipsum vel, sodales dolor. Suspendisse eu sollicitudin mauris. Etiam eu fringilla tellus. Morbi commodo consectetur massa vitae aliquet. Sed ligula erat, pharetra non est sed, pretium blandit velit. In pellentesque finibus sollicitudin.
+                  <br><br>
+                  Donec efficitur, nulla vitae malesuada volutpat, justo erat viverra neque, id viverra nisi nisi a odio. Proin non nunc molestie, pharetra lacus vitae, semper magna. Proin dignissim lectus ac massa varius lobortis id in est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed vitae lectus eget dui lobortis iaculis at non turpis. Cras augue ante, dignissim non dolor ut, sodales consectetur diam. Nulla gravida, risus ut fringilla vehicula, nisl velit ultricies velit, eu rhoncus felis nisl quis metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  <br><br>
+                  Quisque rutrum diam at dolor eleifend blandit ut a nisi. Fusce venenatis quam tempor mattis feugiat. Nam et nulla leo. Ut tincidunt velit at sapien bibendum, scelerisque mattis enim mollis. Morbi finibus nisl quis venenatis accumsan. Sed sit amet felis et nunc vulputate egestas sit amet a turpis. Curabitur eu facilisis nulla, ac faucibus nibh. Suspendisse vulputate mi a faucibus rutrum. Aenean nec purus a mauris tempus euismod. Pellentesque rutrum fermentum nunc, vitae aliquam sem. Curabitur ultrices lacus nec placerat scelerisque. Nulla efficitur et ipsum sit amet commodo. In et maximus dui. Etiam et fringilla erat, quis pellentesque sapien. Maecenas ac magna commodo, accumsan ante vel, malesuada metus.
+                  <br><br>
+                  Vivamus posuere ligula turpis, a suscipit turpis egestas at. In tincidunt odio ac ullamcorper ultricies. Ut lacinia efficitur eleifend. Nunc gravida eleifend libero sit amet egestas. Ut auctor vehicula est eu congue. Sed at lectus sed nisi rutrum posuere. Pellentesque sed leo non ex egestas finibus at sit amet ex.
+
+                  Proin posuere dolor tellus, et vulputate metus finibus a. Vestibulum id libero non neque congue accumsan. Morbi congue nunc nisi, et vulputate mauris molestie vitae. Donec efficitur, nunc laoreet iaculis tempus, tellus leo tristique nibh, euismod lobortis ex diam eu neque. Maecenas sapien justo, rhoncus a sapien non, dictum sodales ante. Ut id sem interdum, lobortis leo at, egestas risus. Vestibulum nibh tortor, pellentesque eget viverra iaculis, imperdiet a libero. Aliquam erat volutpat. Nam ut consequat dolor. Proin eleifend rutrum diam vitae hendrerit. Integer iaculis lorem a ipsum egestas venenatis. Nulla vel quam hendrerit, pretium tortor at, porta justo. Suspendisse quis urna ultrices, semper massa vitae, dapibus mauris.
+
+                  Curabitur pellentesque feugiat nunc, ut suscipit risus volutpat sed. Integer tincidunt velit est, vehicula tristique nisi interdum eget. Sed quam turpis, sollicitudin eu massa ut, finibus facilisis risus. Ut non vehicula nunc. Vestibulum eu blandit diam. Curabitur consectetur est non arcu maximus, ac tempus lectus tempus. Aliquam at neque quam. Maecenas a risus at est aliquam sodales. Nunc nec semper turpis. Morbi imperdiet, nisl non tincidunt accumsan, nisi ante euismod est, congue porta metus dui ut mi.
+
+                  Vivamus odio dui, aliquam vitae turpis at, imperdiet ornare orci. Praesent dictum tincidunt luctus. Mauris sodales et sapien ac blandit. Etiam sed volutpat justo. Etiam sapien nisi, elementum ut nunc ac, finibus rhoncus tortor. In id turpis venenatis, dignissim nunc quis, dictum diam. Nam consequat dui nec nibh laoreet, id hendrerit mi blandit.
+
+                </p>
+              </div>
+
+
+            </div>
+
+
+
+          </div>
+
+        </div>
+
 
       </main>
 

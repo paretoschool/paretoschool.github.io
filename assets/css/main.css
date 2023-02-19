@@ -5,6 +5,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: "Lora";
+  src: url("/assets/fonts/lora.ttf");
+}
+
+p {
+	font-family: "Lora";
+	src: url("/assets/fonts/lora.ttf");
+}
+
 .text-red-line {
 	border-left: 3px solid rgb(239 68 68);padding-left:5px;
 }
