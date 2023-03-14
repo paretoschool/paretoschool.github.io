@@ -16,6 +16,33 @@ p {
 	src: url("/assets/fonts/lora.ttf");
 }
 
+.resource-content > h2, .resource-content > h3, .resource-content > h4 {
+	/*font-size: 20px;*/
+	color: rgb(15 23 42);
+	font-weight: 600;
+	margin-top: 15px;
+}
+
+.resource-content > h2 {
+	font-size: 22px;
+}
+
+.resource-content > h3 {
+	font-size: 20px;
+}
+
+.resource-content > h4 {
+	font-size: 18px;
+}
+
+
+.resource-content > ul > li {
+	font-family: "Lora";
+	src: url("/assets/fonts/lora.ttf");
+	list-style-type: circle;
+}
+
+
 .text-red-line {
 	border-left: 3px solid rgb(239 68 68);padding-left:5px;
 }
@@ -23,3 +50,32 @@ p {
 .text-rose-line {
 	border-left: 3px solid rgb(244 63 94);padding-left:5px;
 }
+
+.exhibit-table{
+	font-family: "Lora";
+	src: url("/assets/fonts/lora.ttf");
+	font-size: 13px;
+}
+
+.exhibit-table > thead > tr > th {
+	font-family: "Inter";
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	/*background-color: #FAF5FF;*/
+	background-color: #F43F5E;
+	border: 3px solid white;
+	padding: 0.5rem;
+}
+
+.exhibit-table > tbody > tr > td {
+	vertical-align:top;
+	background-color: #FFF1F2;
+	border: 3px solid white;
+	padding: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+
+

@@ -17,6 +17,13 @@ twitter:
 
 logo: "/assets/img/pareto_logo_line.png"
 
+collections:
+  resources:
+    title: true
+    categories: true
+    output: true
+    permalink: /:collection/:slug/
+
 #sass:
 #  load_paths:
 #    - _sass
