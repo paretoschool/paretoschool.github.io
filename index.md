@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Pareto MBA"
+image: /assets/img/twitter_card.png
 ---
 
 ## You're ready to go!
