@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+  <body>
+
+
+<div class="bg-white">
+
+  {% include header.html %}
+
+  <main>
+
+    <div class="flex min-h-full items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+      <div class="w-full max-w-xl space-y-8">
+
+        {{ content }}
+
+      </div>
+    </div>
+
+
+  </main>
+
+
+
+  {% include footer.html %}
+
+</div>
+
+
+  {% include ga.html %}
+
+
+  </body>
+</html>
