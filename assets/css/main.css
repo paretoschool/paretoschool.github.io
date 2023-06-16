@@ -11,7 +11,7 @@
   src: url("/assets/fonts/lora.ttf");
 }
 
-p {
+p,li {
 	font-family: "Lora";
 	src: url("/assets/fonts/lora.ttf");
 }
