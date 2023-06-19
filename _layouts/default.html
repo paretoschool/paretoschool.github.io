@@ -13,15 +13,20 @@
 
         <!-- Hero section -->
         <div class="relative">
-          <div class="absolute inset-x-0 bottom-0 bg-gray-100"></div>
-          <div class="mx-auto max-w-7xl"><!--sm:px-6 lg:px-8 -->
+          <div class="absolute inset-x-0 bottom-0"></div>
+            <!--
+              <div class="sm:hidden bg-gray-500 py-12 pb-2 sm:pb-12 px-4">
+                  <script src="https://fast.wistia.com/embed/medias/71qml6kbpr.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_71qml6kbpr videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/71qml6kbpr/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>                
+              </div>            
+            -->
+          <div class="mx-auto max-w-7xl flex"><!--sm:px-6 lg:px-8 -->
             
               <div class="absolute inset-0">
-              </div>
-              <div class="relative pt-16 pb-8 px-6 sm:pt-16 sm:pb-8 lg:pt-16 lg:pb-10 lg:px-8">
+              </div>            
+              <div class="relative sm:w-3/5 pt-16 pb-8 px-6 sm:pt-16 sm:pb-8 lg:pt-16 lg:pb-10 lg:px-8 lg:pr-12">
 
                 <div class="float-right flex">
-                  <img class="hidden md:flex w-50" style="max-width:450px;position:relative !important;" src="{{ "/assets/img/zoom_mockup.png" | relative_url }}">
+                  
                 </div>
 
                 <h1 class="col-start-1 row-start-2 mt-4 max-w-[36rem] text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl xl:max-w-[43.5rem]"
@@ -46,14 +51,6 @@
                       </svg>
                     <span class="ml-2.5">Next cohort: September 1 - October 27 2023</span>
                   </div>
-                  <!--
-                  <div class="flex items-center text-sm font-medium text-slate-500 sm:ml-6">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342M6.75 15a.75.75 0 100-1.5.75.75 0 000 1.5zm0 0v-3.675A55.378 55.378 0 0112 8.443m-7.007 11.55A5.981 5.981 0 006.75 15.75v-1.5" />
-                    </svg>
-                    <span class="ml-2.5">Certificate program</span>                
-                  </div>
-                  -->
                 </div>
                 <div class="mt-10 sm:flex sm:max-w-none"> <!-- mx-auto sm:justify-center-->
                   <div class="space-y-4  sm:inline-grid sm:gap-5 sm:space-y-0"> <!-- sm:mx-auto-->
@@ -63,6 +60,14 @@
                 </div>
               </div>
             
+              <div class="hidden sm:block w-2/5 pt-16">
+                <img class="hidden md:flex w-50" style="max-width:450px;position:relative !important;" src="{{ "/assets/img/zoom_mockup.png" | relative_url }}">
+                  <!--
+                  <script src="https://fast.wistia.com/embed/medias/71qml6kbpr.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_71qml6kbpr videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/71qml6kbpr/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>                
+                  -->
+              </div>
+
+
           </div>
         </div>
 
@@ -258,49 +263,49 @@
           <div class="py-12">
             <div class="mx-auto max-w-7xl px-6 lg:px-8">
 
-              <div class="mx-auto max-w-4xl lg:text-center pb-16">
-                <h5 class="text-lg font-semibold leading-8 tracking-tight text-rose-500">Fits your schedule</h5>
-                <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">The Pareto MBA Weekly Outline</h1>
-                <p class="mt-6 text-lg leading-8 text-gray-600">We have condensed a traditional MBA curriculum into an <strong>8-week cohort program</strong> with microlearning, spaced repetition, case studies and exercises. Study at your own pace for <strong>3-4 hours per week</strong>, then go deeper together with our teachers and your class in <strong>weekly live sessions</strong>.</p>
+              <div class="mx-auto max-w-4xl lg:text-center pb-8 sm:pb-16">
+                <h5 class="text-lg font-semibold leading-normal tracking-tight text-rose-500">Fits your schedule</h5>
+                <h1 class="sm:mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">The Pareto MBA Experience</h1>
+                <p class="sm:mt-6 text-lg leading-normal text-gray-600">We have condensed a traditional MBA curriculum into an 8-week cohort program with microlearning, spaced repetition, case studies and exercises. Study at your own pace for 3-4 hours per week, then go deeper together with our teachers and your class in weekly live sessions.</p>
               </div>
 
 
-              <div class="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-3">
+              <div class="mx-auto grid max-w-2xl grid-cols-1 sm:gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-3">
                 <div>
-                  <time datetime="2021-08" class="flex items-center text-sm font-semibold leading-6 text-rose-500">
+                  <time datetime="2021-08" class="flex items-center text-sm font-semibold leading-normal text-rose-500">
                     <svg viewBox="0 0 4 4" class="mr-4 h-1 w-1 flex-none" aria-hidden="true">
                       <circle cx="2" cy="2" r="2" fill="currentColor" />
                     </svg>
                     Weekend
                     <div class="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10 sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0" aria-hidden="true"></div>
                   </time>
-                  <p class="mt-2 sm:mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">Module Content Drops</p>
-                  <p class="mt-1 text-base leading-7 text-gray-600">We release every week's learning content during the weekend before, for self-paced studying. The material usually requires <strong>3-4 hours</strong> of studying.</p>
-                  <img src="{{ "/assets/img/program_guide_content_drop.png" | relative_url }}" class="my-8">
+                  <p class="mt-2 sm:mt-6 text-lg font-semibold leading-normal tracking-tight text-gray-900">Module Content Drops</p>
+                  <p class="mt-1 text-base leading-normal text-gray-600">We release every week's learning content during the weekend before, for self-paced studying. The material usually requires 3-4 hours of studying.</p>
+                  <img src="{{ "/assets/img/program_guide_content_drop.png" | relative_url }}" class="my-8 w-2/3 sm:w-full mx-auto">
                 </div>
                 <div>
-                  <time datetime="2021-12" class="flex items-center text-sm font-semibold leading-6 text-rose-500">
+                  <time datetime="2021-12" class="flex items-center text-sm font-semibold leading-normal text-rose-500">
                     <svg viewBox="0 0 4 4" class="mr-4 h-1 w-1 flex-none" aria-hidden="true">
                       <circle cx="2" cy="2" r="2" fill="currentColor" />
                     </svg>
                     Mid-week
                     <div class="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10 sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0" aria-hidden="true"></div>
                   </time>
-                  <p class="mt-2 sm:mt-6 font-semibold leading-8 tracking-tight text-gray-900">Weekly office hours with the team</p>
-                  <p class="mt-1 text-base leading-7 text-gray-600">Mid-week, we host live office hours where you can ask any questions you might have about the learning content.</p>
-                  <img src="{{ "/assets/img/program_guide_office_hours.png" | relative_url }}" class="my-8">
+                  <p class="mt-2 sm:mt-6 text-lg font-semibold leading-normal tracking-tight text-gray-900">Weekly office hours with the team</p>
+                  <p class="mt-1 text-base leading-normal text-gray-600">Mid-week, we host live office hours where you can ask any questions you might have about the learning content.</p>
+                  <img src="{{ "/assets/img/program_guide_office_hours.png" | relative_url }}" class="my-8 w-2/3 sm:w-full mx-auto">
                 </div>
                 <div>
-                  <time datetime="2022-12" class="flex items-center text-sm font-semibold leading-6 text-rose-500">
+                  <time datetime="2022-12" class="flex items-center text-sm font-semibold leading-normal text-rose-500">
                     <svg viewBox="0 0 4 4" class="mr-4 h-1 w-1 flex-none" aria-hidden="true">
                       <circle cx="2" cy="2" r="2" fill="currentColor" />
                     </svg>
                     Fridays
                     <div class="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10 sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0" aria-hidden="true"></div>
                   </time>
-                  <p class="mt-2 sm:mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900">Friday workshop with peers</p>
-                  <p class="mt-1 text-base leading-7 text-gray-600">On <strong>Fridays</strong>, we work together with cases, team assignments and masterclasses in a live call.</p>
-                  <img src="{{ "/assets/img/program_guide_friday_workshop.png" | relative_url }}" class="my-8">
+                  <p class="mt-2 sm:mt-6 text-lg font-semibold leading-normal tracking-tight text-gray-900">Friday workshop with peers</p>
+                  <p class="mt-1 text-base leading-normal text-gray-600">On Fridays, we work together with cases, team assignments and masterclasses in a live call.</p>
+                  <img src="{{ "/assets/img/program_guide_friday_workshop.png" | relative_url }}" class="my-8 w-2/3 sm:w-full mx-auto">
                 </div>
               </div>
 
@@ -341,44 +346,27 @@
 
     <!-- This example requires Tailwind CSS v3.0+ -->
     <div class="mx-auto bg-white max-w-7xl py-8 sm:py-8 px-8 pb-16 sm:pb-16">
-        <div class="mx-auto max-w-4xl lg:text-center my-8">
-          <h5 class="text-lg font-semibold leading-8 tracking-tight text-rose-500">Fits your busy schedule</h5>
+        <div class="mx-auto max-w-4xl lg:text-center sm:my-8">
+          <h5 class="text-lg font-semibold leading-normal tracking-tight text-rose-500">Fits your busy schedule</h5>
           <h2 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Who is Pareto MBA for?</h2>
         </div>        
 
         <div class="relative isolate bg-white pb-16 sm:pb-8">
           <div class="mx-auto max-w-7xl">
             <div class="mx-auto grid max-w-2xl grid-cols-1 grid-rows-1 gap-8 text-sm leading-6 text-gray-900 sm:grid-cols-2 xl:mx-0 xl:max-w-none xl:grid-flow-col xl:grid-cols-4">
-              <!--
-              <figure class="col-span-2 hidden sm:block sm:rounded-2xl sm:bg-white sm:shadow-lg sm:ring-1 sm:ring-gray-900/5 xl:col-start-2 xl:row-end-1">
-                <blockquote class="p-12 text-xl font-semibold leading-8 tracking-tight text-gray-900">
-                  <p>“Integer id nunc sit semper purus. Bibendum at lacus ut arcu blandit montes vitae auctor libero. Hac condimentum dignissim nibh vulputate ut nunc. Amet nibh orci mi venenatis blandit vel et proin. Non hendrerit in vel ac diam.”</p>
-                </blockquote>
-                <figcaption class="flex items-center gap-x-4 border-t border-gray-900/10 px-6 py-4">
-                  <img class="h-10 w-10 flex-none rounded-full bg-gray-50" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=1024&h=1024&q=80" alt="">
-                  <div class="flex-auto">
-                    <div class="font-semibold">Brenna Goyette</div>
-                    <div class="text-gray-600">@brennagoyette</div>
-                  </div>
-                  <img class="h-10 w-auto flex-none" src="https://tailwindui.com/img/logos/savvycal-logo-gray-900.svg" alt="">
-                </figcaption>
-              </figure>
-              -->
-              <div class="space-y-20 lg:contents lg:space-y-0">
+              <div class="space-y-10 sm:space-y-20 lg:contents lg:space-y-0">
                 <div class="lg:row-span-2">
-
-
                   <h3 class="mt-6 text-xl font-semibold leading-8 tracking-tight text-gray-900">New or aspiring leaders</h3>
-                  <p class="text-base leading-7 text-gray-600 mb-8 text-lg">
+                  <p class="text-base leading-7 text-gray-600 sm:mb-8 mb-4 text-lg">
                   You are a specialist in tech, sales, marketing or similar who is aspiring for a leadership role.
                   </p>
 
-                  <figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+                  <figure class="rounded-xl sm:rounded-2xl bg-white p-4 sm:p-6 shadow-lg ring-1 ring-gray-900/5">
                     <blockquote class="text-gray-900">
                       <p>“Fantastic set-up, on point and with an incredibly lovely group! 👏🤗”</p>
                     </blockquote>
-                    <figcaption class="mt-6 flex items-center gap-x-4">
-                      <img class="h-20 w-20 rounded-full bg-gray-50" src="{{ "/assets/img/testimonial_sofia_p.jpeg" | relative_url }}" alt="">
+                    <figcaption class="mt-2 sm:mt-6 flex items-center gap-x-4">
+                      <img class="h-14 w-14 sm:h-20 sm:w-20 rounded-full bg-gray-50" src="{{ "/assets/img/testimonial_sofia_p.jpeg" | relative_url }}" alt="">
                       <div>
                         <div class="font-semibold">Sofia P.</div>
                         <div class="text-gray-600">Head of Sales</div>
@@ -393,16 +381,16 @@
 
 
                   <h3 class="mt-6 text-xl font-semibold leading-8 tracking-tight text-gray-900">Business owners</h3>
-                  <p class="text-base leading-7 text-gray-600 mb-8 text-lg">
+                  <p class="text-base leading-7 text-gray-600 sm:mb-8 mb-4 text-lg">
                     You are running a small or medium-sized business as owner or CEO but lack formal skills.
                   </p>
 
-                  <figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+                  <figure class="rounded-xl sm:rounded-2xl bg-white p-4 sm:p-6 shadow-lg ring-1 ring-gray-900/5">
                     <blockquote class="text-gray-900">
                       <p>“I can say that I have been pleasantly surprised at how fantastically well managed this approach is and to be able to do it together with some of the industry's most knowledgeable with real cases during the course has been groundbreaking!”</p>
                     </blockquote>
-                    <figcaption class="mt-6 flex items-center gap-x-4">
-                      <img class="h-20 w-20 rounded-full bg-gray-50" src="{{ "/assets/img/testimonial_anton.jpeg" | relative_url }}" alt="">
+                    <figcaption class="mt-2 sm:mt-6 flex items-center gap-x-4">
+                      <img class="h-14 w-14 sm:h-20 sm:w-20 rounded-full bg-gray-50" src="{{ "/assets/img/testimonial_anton.jpeg" | relative_url }}" alt="">
                       <div>
                         <div class="font-semibold">Anton N.</div>
                         <div class="text-gray-600">CEO</div>
@@ -414,16 +402,16 @@
                 <div class="lg:row-start-1">
 
                   <h3 class="mt-6 text-xl font-semibold leading-8 tracking-tight text-gray-900">Business developers</h3>
-                  <p class="text-base leading-7 text-gray-600 mb-8 text-lg">
+                  <p class="text-base leading-7 text-gray-600 sm:mb-8 mb-4 text-lg">
                   You want a better set of tools for developing businesses that you work with as an external advisor.
                   </p>
 
-                  <figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+                  <figure class="rounded-xl sm:rounded-2xl bg-white p-4 sm:p-6 shadow-lg ring-1 ring-gray-900/5">
                     <blockquote class="text-gray-900">
                       <p>“In addition to boosting general business skills, I have to say that the first cohort of the program is so bright, lovely and interesting. Ping all magic participants, experts & inspirers 💙”</p>
                     </blockquote>
-                    <figcaption class="mt-6 flex items-center gap-x-4">
-                      <img class="h-20 w-20 rounded-full bg-gray-50" src="{{ "/assets/img/testimonial_sofia_t.jpeg" | relative_url }}" alt="">
+                    <figcaption class="mt-2 sm:mt-6 flex items-center gap-x-4">
+                      <img class="h-14 w-14 sm:h-20 sm:w-20 rounded-full bg-gray-50" src="{{ "/assets/img/testimonial_sofia_t.jpeg" | relative_url }}" alt="">
                       <div>
                         <div class="font-semibold">Sofia T.</div>
                         <div class="text-gray-600">Venture Builder</div>
@@ -436,14 +424,14 @@
                 <div class="lg:row-span-2">
 
                   <h3 class="mt-6 text-xl font-semibold leading-8 tracking-tight text-gray-900">Curious professionals</h3>
-                  <p class="text-base leading-7 text-gray-600 mb-8 text-lg">You want to grow in your role by learning about modern business models and industries.</p>
+                  <p class="text-base leading-7 text-gray-600 sm:mb-8 mb-4 text-lg">You want to grow in your role by learning about modern business models and industries.</p>
 
-                  <figure class="rounded-2xl bg-white p-6 shadow-lg ring-1 ring-gray-900/5">
+                  <figure class="rounded-xl sm:rounded-2xl bg-white p-4 sm:p-6 shadow-lg ring-1 ring-gray-900/5">
                     <blockquote class="text-gray-900">
                       <p>“So far the best investment of the year!”</p>
                     </blockquote>
-                    <figcaption class="mt-6 flex items-center gap-x-4">
-                      <img class="h-20 w-20 rounded-full bg-gray-50" src="{{ "/assets/img/testimonial_philip.jpeg" | relative_url }}" alt="">
+                    <figcaption class="mt-2 sm:mt-6 flex items-center gap-x-4">
+                      <img class="h-14 w-14 sm:h-20 sm:w-20 rounded-full bg-gray-50" src="{{ "/assets/img/testimonial_philip.jpeg" | relative_url }}" alt="">
                       <div>
                         <div class="font-semibold">Philip L.</div>
                         <div class="text-gray-600">Advertising Professional</div>
