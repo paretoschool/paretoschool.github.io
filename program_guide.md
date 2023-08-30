@@ -1,7 +1,9 @@
 ---
 layout: program_guide
-title: "Pareto MBA Program Guide"
+title: "Program Guide"
 image: /assets/img/twitter_card.png
+sitemap:
+  exclude: 'yes'
 ---
 
 ## You're ready to go!

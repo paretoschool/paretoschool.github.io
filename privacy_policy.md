@@ -1,6 +1,8 @@
 ---
 layout: content_page
-title: "Pareto School - Privacy Policy"
+sitemap:
+  exclude: 'yes'
+title: "Privacy Policy"
 ---
 
 ## Privacy Policy for Pareto Business School International AB

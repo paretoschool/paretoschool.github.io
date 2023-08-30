@@ -1,6 +1,6 @@
 ---
 layout: apply
-title: "Pareto MBA Program Guide"
+title: "Apply to the Pareto MBA"
 image: /assets/img/twitter_card.png
 ---
 

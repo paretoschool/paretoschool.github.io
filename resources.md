@@ -1,5 +1,7 @@
 ---
 layout: resources
+sitemap:
+  exclude: 'yes'
 title: "Pareto Business School - Online Resources"
 ---
 
