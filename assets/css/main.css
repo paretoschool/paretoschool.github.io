@@ -35,11 +35,43 @@ p,li {
 	font-size: 18px;
 }
 
+.resource-content > p {
+	padding-bottom: 12px;
+}
+
 
 .resource-content > ul > li {
 	font-family: "Lora";
 	src: url("/assets/fonts/lora.ttf");
 	list-style-type: circle;
+}
+
+.resource-content > ol {
+	padding-top: 12px;
+}
+
+
+.resource-content > ol > li {
+	font-family: "Lora";
+	src: url("/assets/fonts/lora.ttf");
+	list-style-type: number;
+	margin-left: 24px;
+	padding-left: 10px;
+}
+
+.exhibit-highlight {
+	font-family: "Lora";
+	src: url("/assets/fonts/lora.ttf");
+	color: rgb(15 23 42);
+	font-weight: 600;
+	font-size: 22px;
+}
+
+.exhibit-highlight-list {
+	list-style-type: circle;
+	margin-left: 12px;
+	color: rgb(15 23 42);
+	font-size: 16px;	
 }
 
 
