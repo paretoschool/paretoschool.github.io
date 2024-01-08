@@ -16,6 +16,10 @@ p,li {
 	src: url("/assets/fonts/lora.ttf");
 }
 
+.top-banner {
+	font-family: "Inter";
+}
+
 .resource-content > h2, .resource-content > h3, .resource-content > h4 {
 	/*font-size: 20px;*/
 	color: rgb(15 23 42);
